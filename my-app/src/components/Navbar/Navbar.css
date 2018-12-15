@@ -1,0 +1,14 @@
+nav {
+  height: 20%;
+  margin-bottom: 5%;
+}
+
+nav.navbar {
+    margin-bottom: 0;
+    background: #1d1e22;
+  }
+
+nav.navbar-brand {
+  color: #feda6a
+}
+  
