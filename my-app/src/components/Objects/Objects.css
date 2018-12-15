@@ -4,12 +4,3 @@
     margin: 6px;
     border: solid 5px;
 }
-
-.Objects:hover {
-    box-shadow: 10px 15px 7px #C7C7C7;
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
-
-  

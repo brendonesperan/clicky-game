@@ -2,19 +2,12 @@ import React from "react";
 import {Guesses} from './Guesses';
 import {Wins} from './Wins';
 import {Losses} from './Losses';
-import "./Navbar.css";
+//import "./Navbar.css";
 
 const styles = {
-    brand: {
-        color: "#feda6a"
-    },
     navBar: {
         height: 100,
         marginBottom: "2%"
-    },
-    scores: {
-        color: "#feda6a",
-        marginRight: 100
     }
 }
 
