@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import { Container, Col, Row } from './components/Grid';
 import './App.css';
 import { Objects } from './components/Objects';
-import Images from './components';
+import Images from './components/Objects';
 
 
 
@@ -119,7 +119,8 @@ class App extends Component {
                   return(
                     <Images
                     key={character.name}
-                    src={"images/" + character.image} 
+                    src={"images/" + character.image}
+                    className="Objects" 
                     onClick={() => this.handleClickEvent(character)}
                     clicked={character.clicked}
                     alt = {character.name}
