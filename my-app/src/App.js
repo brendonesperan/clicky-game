@@ -78,7 +78,7 @@ class App extends Component {
       this.resetClicked();
       this.shuffle(Objects);
     }
-    else if (this.state.guesses === 11) {
+    else if (this.state.guesses === 5) {
       this.incrementWins();
       this.resetGuesses();
       this.resetClicked();

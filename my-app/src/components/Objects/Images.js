@@ -21,12 +21,12 @@ export const Objects = [
     },
     {
         name: "daisy",
-        image: "daisy.jpg",
+        image: "daisy.png",
         clicked: "false" 
     },
     {
         name: "rosalina",
-        image: "rosalina.jpg",
+        image: "rosalina.png",
         clicked: "false"
     },
 ]
